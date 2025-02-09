@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: "configserver"
+  profiles:
+#    active: git
+    active: native
+  cloud:
+    config:
+      server:
+        native:
+#          search-locations: "file:///...."
+          search-locations: "classpath:/config"
+#        git:
+#          uri: "....."
+#          default-label: main
+#          timeout: 5
+#          clone-on-start: true
+#          force-pull: true
+
+encrypt:
+  key: "MYSUPERSECRETKEYFORMYCLOUDCONFIGSERVER"
+
+server:
+  port: 8071

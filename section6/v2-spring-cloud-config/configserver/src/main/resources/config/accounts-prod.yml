@@ -2,10 +2,10 @@ build:
   version: "1.0"
 
 accounts:
-  message: "Welcome to WahidBank accounts related prod APIs "
+  message: "Welcome to WahidBank accounts related production APIs "
   contactDetails:
     name: "Hales  - Prod Lead"
-    email: "Hales@wahidbank.com"
+    email: "{cipher}1df5b0313d4cbbdbad32f28442a9ca7ad63a77ff85ccc6044c3ec53570cda3cc57dc90358715935a9059e6d2dfb5a375"
   onCallSupport:
     - (453) 392-3765
     - (236) 203-8371
